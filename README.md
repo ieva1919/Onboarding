@@ -8,10 +8,14 @@ To install dependencies:
 
 ```
 yarn install
+or
+npm install
 ```
 
 To run the examples:
 
 ```
 yarn start
+or
+npm run start
 ```

@@ -1,0 +1,21 @@
+.slides {
+	.slide {
+		background-image: url("assets/slide1.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: cover;
+		position: relative;
+		height: 480px;
+		width: 60%;
+		button {
+			color:white;
+			background-color: orange;
+			padding: 10px 30px;
+			margin-left: 100px;
+		}
+		p {
+			padding: 200px 280px 10px 80px;
+			color: white;
+		}
+	}
+}

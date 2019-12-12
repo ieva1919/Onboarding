@@ -1,0 +1,66 @@
+body {
+    background: #343439;
+    h1 {
+        color: white;
+    }
+}
+
+.container {
+	margin: 0 auto; 
+	max-width: 1223px;
+}
+
+.grid {
+    .row {
+        display: flex;
+
+        .telesoftas {
+            background: #FF6800;
+            height: 369px;
+            display: flex;
+            justify-content: center;
+        }
+        .yellowDog {
+            height: 369px;
+            display: flex;
+            justify-content: center;
+        }
+        .aon {
+            height: 369px;
+            display: flex;
+            justify-content: center;
+        }
+        .viavi {
+            background:#502874;
+            display: flex;
+            justify-content: center;
+            height: 369px;
+        }
+        .tele2 {
+            background: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            height: 369px;
+        }
+        .onTheDot {
+            height: 369px;
+            display: flex;
+            justify-content: center;
+            background: #00A871;
+        }
+        .gameOn {
+            height: 369px;
+            display: flex;
+            justify-content: center;
+            background: #E01B4D;
+        }
+    }
+}
+
+.fg1 {
+    width: 33%;
+}
+
+.fg2 {
+    width: 66%;
+}

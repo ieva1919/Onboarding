@@ -4,6 +4,12 @@ body {
 .slider__container {
 	position: relative;
 }
+
+.container {
+	margin: 0 auto; 
+	max-width: 1223px;
+}
+
 .slides {
 	.slide {
 		background-image: url("assets/slide1.png");
@@ -17,12 +23,13 @@ body {
 			color:white;
 			background-color: orange;
 			border: orange;
-			padding: 10px 40px;
-			margin-left: 220px;
 			font-size: 18px;
+			width: 201px;
+			height: 46px;
 		}
 		p {
-			padding: 380px 700px 10px 180px;
+			padding: 380px 0px 10px 0px;
+			max-width: 686px;
 			color: white;
 			font-size: 26px;
 		}

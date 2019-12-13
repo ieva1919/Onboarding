@@ -1,5 +1,9 @@
 .accordion {
-	background-color: #6A6A72;
+	margin: 0 auto; 
+	max-width: 1223px;
+}
+.accordion {
+	background-color: #343439;
 	color: white;
 	cursor: pointer;
 	padding: 18px;
@@ -13,7 +17,7 @@
 }
 
 .active, .accordion:hover {
-	background-color: #F46036; 
+	background-color: #FF6800; 
 }
   
 .panel {
@@ -21,4 +25,15 @@
 	display: none;
 	background-color: white;
 	overflow: hidden;
+}
+
+button {
+	position: relative;
+
+		i {
+			font-size: 80px;
+			color:#FFFFFF;
+			position: absolute;
+			right: 20px;
+		}
 }

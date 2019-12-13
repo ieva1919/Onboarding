@@ -21,14 +21,15 @@ body {
             justify-content: center;
         }
         .yellowDog {
-            height: 369px;
             display: flex;
             justify-content: center;
+            background-color: #FAB31B;
         }
         .aon {
-            height: 369px;
             display: flex;
             justify-content: center;
+            background-color: #E21A22;
+
         }
         .viavi {
             background:#502874;
@@ -59,8 +60,11 @@ body {
 
 .fg1 {
     width: 33%;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .fg2 {
     width: 66%;
+    margin-right: 10px;
 }

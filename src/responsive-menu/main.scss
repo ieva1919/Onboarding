@@ -1,13 +1,27 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.tlsft-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 33px;
+}
+
 .tlsft-menu-content {
     font-size: 18px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 
     .tlsft-menu__group {
-
+        display: flex;
         a {
-            float: right;
             padding-right: 23px;
-           /* color: #FFFFFF; */
+            color: white; 
+            text-decoration: none;
+            font-family: sans-serif;
         }
     }
     .tlsft-menu__group {
@@ -17,5 +31,21 @@
                 border-left: 5px solid white;
             }
         }
+    }
+}
+
+.tlsft-menu--burger {
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+
+    .tlsft-menu--burger {
+
+        display: inline;
+
+    }
+    .tlsft-menu-content {
+        display: none;
     }
 }

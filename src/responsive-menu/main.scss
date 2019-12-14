@@ -1,0 +1,21 @@
+.tlsft-menu-content {
+    font-size: 18px;
+    font-weight: 600;
+
+    .tlsft-menu__group {
+
+        a {
+            float: right;
+            padding-right: 23px;
+           /* color: #FFFFFF; */
+        }
+    }
+    .tlsft-menu__group {
+        .tlsft-menu__group1 {
+            a {
+                padding-left: 23px;
+                border-left: 5px solid white;
+            }
+        }
+    }
+}

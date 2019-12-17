@@ -1,6 +1,9 @@
 body {
 	margin: 0;
-	font-family: Work Sans;
+	font-family: "Work Sans", sans-serif;
+	button {
+		font-family: "Work Sans", sans-serif;
+	}
 }
 .slider__container {
 	position: relative;
@@ -15,8 +18,7 @@ body {
 	.slide {
 		background-image: url("assets/slide1.png");
 		background-repeat: no-repeat;
-		background-position: right;
-		background-size: cover;
+		background-position: left;
 		position: relative;
 		height: 1004px;
 		width: 100%;
@@ -25,9 +27,10 @@ body {
 			color:white;
 			background-color: #FF6800;
 			border: #FF6800;
-			font-size: 18px;
 			width: 201px;
 			height: 46px;
+			font-weight: 600;
+			font-size: 20px;
 		}
 		.text__computer, .text__mobile  {
 			padding: 380px 0px 10px 0px;
@@ -41,8 +44,8 @@ body {
 .slider__thumbnails {
 	position: absolute; 
 	bottom: 100px;
-	right: 180px;
-
+	width: 100%;
+	text-align: right;
 	img {
 		width: 120px;
 		margin-right: 50px;
@@ -82,9 +85,7 @@ body {
 @media all and (max-width: 800px) { 
 
 	.slide {
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: left top;
+		text-align: center;
 	}
 
 	.text__mobile {
@@ -100,9 +101,10 @@ body {
 
 	.slider__thumbnails {
 		display: inline-block;
-		margin: 0 35px;
+
 		img {
-		margin: 0 20px;
+		margin-left: 20px;
+		margin-right: 0;
 		}
 	}
 

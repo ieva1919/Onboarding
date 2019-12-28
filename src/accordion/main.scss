@@ -14,13 +14,13 @@
 	outline: none;
 	font-size: 15px;
 	transition: 0.4s;
-	margin: 10px;
+	margin: 10px 0;
 	
 		h1 {
 			font-style: normal;
 			font-weight: normal;
-			font-size: 72px;
-			line-height: 84px;
+			font-size: 36px;
+			line-height: 42px;
 		}
 }
 
@@ -29,19 +29,43 @@
 }
   
 .panel {
-	padding: 0 18px;
-	display: none;
+	padding: 22px 21px 20px 19px;
 	background-color: white;
 	overflow: hidden;
+	display: none;
+}
+
+.panel-active {
+	display: block;
+}
+
+.button-active {
+	background-color: #FF6800; 
+
+	i {
+		background-image: url("assets/arrowUp.svg");
+	}
 }
 
 button {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
 
 		i {
-			font-size: 80px;
-			color:#FFFFFF;
-			position: absolute;
-			right: 20px;
+			background-image: url("assets/arrowDown.svg");
+			width: 18px;
+			height: 9px;
+			display: block;
+		}
+}
+
+@media (max-width: 800px) { 
+	
+		.fa {
+			display: none;
+		}
+		#accordion {
+			margin: 0 35px;
 		}
 }

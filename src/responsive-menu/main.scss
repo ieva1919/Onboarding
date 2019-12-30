@@ -5,12 +5,13 @@
 body {
     margin: 0;
     background-color: grey;
+	font-family: "Work Sans", sans-serif;
 }
 
 .tlsft-menu {
     display: flex;
     justify-content: space-between;
-    margin: 26px 33px;
+    margin: 30px 36px;
 }
 
 .tlsft-menu-content {
@@ -50,12 +51,12 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 42px;
-    padding: 131px 56px 0px 56px; 
+    padding: 131px 56px 0px 36px; 
 
     .tlsft-menu--close {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 30px;
+        right: 36px;
     }
 
     a {
@@ -88,26 +89,25 @@ body {
     .tlsft-menuformobile-header {
         background-color: #F2F2F2;
         width: 100%;
-        height: 104px;
-        left: 0px;
-        top: 0px;
+        height: 80px;
         display: flex;
         justify-content: space-between;
+        padding: 20px 36px;
 
         h2 {
-            position: absolute;
             font-weight: normal;
             font-size: 36px;
             line-height: 42px;
             color: #252527;
-            margin: 30px 31px;
+            margin: 0;
         }
 
     }
     .tlsft-menuformobile-body {
-        margin: 30px 31px;
+        margin: 30px 36px 30px 36px;
 
         form {
+
             input {
                 width: 100%;
                 border: 1px solid #D7D7D7;
@@ -120,12 +120,25 @@ body {
                 line-height: 19px;
                 color: #606060;
             }
-
-            .login {
-                background-color: #FF6800;
-            }
+        }
+        button {
+            background-color: #FF6800;
+            width: 100%;
+            height: 60px;
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            text-align: center;
+            color: #FFFFFF;
+            border: none;
         }
 
+        .cancel {
+            background-color: #E6E6E6; 
+            color: #343439;
+            margin-top: 15px;
+        }
     }
 }
 
@@ -135,8 +148,8 @@ body {
         display: inline;
     }
 
-    .tlsft-menuformobile-form {
-        display:inline;
+    .tlsft-menuformobile-form.open {
+        display:block;
     }
 
     .tlsft-menuformobile-black.open {

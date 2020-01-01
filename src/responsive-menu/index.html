@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Responsive menu</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Responsive menu</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="main-menu" class="tlsft-menu">
-      <div class="tlsft-menu__controls">
-        <!-- <img class="tlsft-menu--close" src="./assets/close.svg"/> -->
-        <img src="./assets/telesoft.png"/>
-      </div>
-      <img class="tlsft-menu--burger" src="./assets/burger.svg"/>
-      <div class="tlsft-menuformobile-black">
-        <img class="tlsft-menu--close" src="./assets/close.svg"/>
-          <a href="#">Responsive Grid</a>
-          <a href="#">Responsive Video</a>
-          <a href="#">Q&A Accordion</a>
-        <div class="tlsft-menu__group1">
-          <a href="#">Login</a>
-        </div>
-      </div>
-      <div class="tlsft-menuformobile-form">
-        <div class="tlsft-menuformobile-header">
-          <h2>Login</h2>
-          <img class="tlsft-menuform--close" src="./assets/close.svg"/>
-        </div>
-        <div class="tlsft-menuformobile-body">
-            <form>
-                <label for="username"><p>Username</p></label>
-                <input type="text" id="username" name="username">
-                <br>
-                <label for="password"><p>Password</p></label>
-                <input type="password" id="password" name="password">
-            </form>
-            <button>Login</button>
-            <br>
-            <button class="cancel">Cancel</button>
-        </div>
-      </div>
-      <div class="tlsft-menu-content">
-        <div class="tlsft-menu__group">
-          <a href="#">Responsive Grid</a>
-          <a href="#">Responsive Video</a>
-          <a href="#">Q&A Accordion</a>
-        </div>
-        <div class="tlsft-menu__group">
-          <div class="tlsft-menu__group1">
-            <a href="#">Login</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+	</head>
+	<body>
+		<div id="main-menu" class="tlsft-menu">
+			<div class="tlsft-menu__controls">
+				<!-- <img class="tlsft-menu--close" src="./assets/close.svg"/> -->
+				<img src="./assets/telesoft.png"/>
+			</div>
+			<img class="tlsft-menu--burger" src="./assets/burger.svg"/>
+			<div class="tlsft-menuformobile-black">
+				<img class="tlsft-menu--close" src="./assets/close.svg"/>
+				<nav>
+					<ul>
+						<li><a href="#">Responsive Grid</a></li>
+						<li><a href="#">Responsive Video</a></li>
+						<li><a href="#">Q&A Accordion</a></li>
+					<div class="tlsft-menu__group1">
+						<li><a href="#">Login</a></li>
+					</div>
+					</ul>
+				</nav>
+			</div>
+			<div class="tlsft-menuformobile-form">
+				<div class="tlsft-menuformobile-header">
+					<h2>Login</h2>
+					<img class="tlsft-menuform--close" src="./assets/close.svg"/>
+				</div>
+				<div class="tlsft-menuformobile-body">
+						<form>
+								<label for="username"><p>Username</p></label>
+								<input type="text" id="username" name="username">
+								<br>
+								<label for="password"><p>Password</p></label>
+								<input type="password" id="password" name="password">
+						</form>
+						<button>Login</button>
+						<br>
+						<button class="cancel">Cancel</button>
+				</div>
+			</div>
+			<div class="tlsft-menu-content">
+				<div class="tlsft-menu__group">
+					<nav>
+						<ul>
+							<li><a href="#">Responsive Grid</a></li>
+							<li><a href="#">Responsive Video</a></li>
+							<li><a href="#">Q&A Accordion</a></li>
+						</div>
+						<div class="tlsft-menu__group">
+							<div class="tlsft-menu__group1">
+								<li><a href="#">Login</a></li>
+							</div>
+						</div>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

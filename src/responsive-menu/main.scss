@@ -22,18 +22,24 @@ body {
 
     .tlsft-menu__group {
         display: flex;
-        a {
+
+        li {
+            list-style-type: none;
             padding-right: 23px;
-            color: white; 
-            text-decoration: none;
-            font-family: sans-serif;
+            display: inline;
+
+            a {
+                color: white; 
+                text-decoration: none;
+                font-family: sans-serif;
+            }
         }
     }
     .tlsft-menu__group {
         .tlsft-menu__group1 {
             a {
                 padding-left: 23px;
-                border-left: 5px solid white;
+                border-left: 2px solid rgba(255, 255, 255, 0.5);
             }
         }
     }
@@ -59,10 +65,14 @@ body {
         right: 36px;
     }
 
-    a {
-        color: white;
-        text-decoration: none;
+    li {
         padding-bottom: 31px;
+        list-style-type: none;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
     }
     .tlsft-menu__group1 {
         border-top: 1px solid rgba(255, 255, 255, 0.25);

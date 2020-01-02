@@ -84,15 +84,11 @@ body {
 
 @media all and (max-width: 800px) { 
 
-	.slide {
-		text-align: center;
-	}
-
 	.text__mobile {
-		display: inline-block;
+		display: block;
+
 		P {
 		display: flex; 
-		align-items: center;
 		}
 	}
 	.text__computer {
@@ -103,8 +99,8 @@ body {
 		display: inline-block;
 
 		img {
-		margin-left: 20px;
-		margin-right: 0;
+			margin-left: 20px;
+			margin-right: 0;
 		}
 	}
 

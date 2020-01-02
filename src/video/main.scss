@@ -4,6 +4,7 @@ body {
 .container {
 	margin: 0 auto; 
     max-width: 1223px;
+
     h1 {
         font-family: "Work Sans";
         font-size: 36px;
@@ -14,13 +15,15 @@ body {
 
 iframe {
    width: 100%;
-   height:  738px;
+   height: 738px;
 }
 
-@media all and (max-width: 1223px) {
+@media all and (max-width: 1224px) {
+
     iframe {
-        height: calc(60vw - 70px);
+        height: calc((100vw - 70px) / 16 * 9);
     }
+
     .container {
 		margin: 0 35px;
 	}

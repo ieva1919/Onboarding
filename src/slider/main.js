@@ -5,6 +5,8 @@ import { createPublicKey } from 'crypto';
 window.addEventListener('DOMContentLoaded', () => {
     new DOMSlider(document.getElementById('main-slider'))
 })
+
+
 let slideIndex = 0;
 
 function showslide(index) {
@@ -31,7 +33,6 @@ for (let i=0; i < thumbnails.length; i++) {
 }
 
 function showthumbnail(index) {
-    const thumbnails = document.getElementsByClassName('slider__thumbnail')
     for (let i = 0; i < thumbnails.length; i++) {
         if (i === index) {
             thumbnails[i].classList.add('slider__thumbnails--active')

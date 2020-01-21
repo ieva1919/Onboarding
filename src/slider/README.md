@@ -11,4 +11,4 @@ Create a slider component which would automatically cycle slides.
 - Slide thumnbnails need to be generated from slides that are defined in HTML.
 - Slides may have different content.
 - Previous and next slide buttons need to switch slides accordingly.
-- Smaller resolution devices need to load smaller resolution images.
+<!-- - Smaller resolution devices need to load smaller resolution images. -->

@@ -1,0 +1,103 @@
+body {
+    background: #343439;
+
+    h1 {
+        color: white;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: normal;
+    }
+}
+
+.container {
+	margin: 0 auto; 
+	max-width: 1223px;
+}
+
+.grid, .grid-mobile {
+    .row {
+        display: flex;
+        height: 369px;
+        img {
+            max-width: 100%;
+        }
+        .telesoftas {
+            background: #FF6800;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .yellowDog {
+            display: flex;
+            justify-content: center;
+            background-color: #FAB31B;
+        }
+        .aon {
+            display: flex;
+            justify-content: center;
+            background-color: #E21A22;
+
+        }
+        .viavi {
+            background:#502874;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .tele2 {
+            background: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .onTheDot {
+            display: flex;
+            justify-content: center;
+            background: #00A871;
+            padding: 40px 0;
+        }
+        .gameOn {
+            display: flex;
+            justify-content: center;
+            background: #E01B4D;
+            padding: 40px 0;
+        }
+    }
+}
+
+.fg1 {
+    width: 33%;
+    margin: 0 5px 10px 5px;
+}
+
+.fg2 {
+    width: 66%;
+    margin: 0 5px 10px 5px;
+}
+
+.grid-mobile {
+    display: none;
+}
+
+@media all and (max-width: 800px) { 
+
+    .grid {
+        display: none;
+    }
+
+    .grid-mobile {
+
+        display: block;
+
+        .row {
+            
+            height: 177px;
+            .fg1 {
+                width: 50%;
+            }
+            .fg2 {
+                width: 100%;
+            }
+        }
+    }
+}
